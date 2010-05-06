@@ -3,12 +3,16 @@
 <html>
 <head>
   <title>Jasmine Test Runner</title>
+  <script type="text/javascript" src="../lib/jasmine-0.10.0.js"></script>
+  <script type="text/javascript" src="../lib/TrivialReporter.js"></script>
+  <script type="text/javascript" src="../lib/consolex.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../lib/jasmine.css">
+
+  <script type="text/javascript">
+    jasmine.include('spec/example_suite.js', true);
+  </script>
 </head>
-<script type="text/javascript" src="../lib/jasmine-0.10.3.js"></script>
-<script type="text/javascript" src="../lib/TrivialReporter.js"></script>
-<script type="text/javascript" src="../lib/consolex.js"></script>
-<script type="text/javascript" src="spec/example_suite.js"></script>
-<link rel="stylesheet" type="text/css" href="../lib/jasmine.css">
 
 <body>
 
